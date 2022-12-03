@@ -39,6 +39,10 @@
   z-index: 4;
 }
 
+.logo_place_footer {
+  z-index: 1;
+}
+
 .header__title {
   margin: 0;
   padding-left: 64px;
@@ -169,10 +173,12 @@
 }
 
 .table {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
+  list-style-type: none;
 }
 
 .table_margin_auto {
@@ -316,11 +322,6 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-}
-
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
 }
 
 .footer__author {
