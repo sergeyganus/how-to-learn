@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+  <!-- Основной контейнер - Page -->
   <div class="page">
+    <!-- Шапка страницы - Header -->
     <header class="header">
       <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Логотип" title="Логитип">
       <h1 class="header__title">Научиться учиться</h1>
@@ -19,10 +21,12 @@
       <img class="header__main-illustration" src="images/header-image.png" alt="Главная иллюстрация" title="Главная иллюстрация">
       <div class="header__square-pic"></div>
     </header>
-    <main class="conntent">
+    <!-- Блок основного контента - Content -->
+    <main class="content">
+      <!-- Блок с описанием проблем в обучении - Description -->
       <section class="description">
         <div class="two-columns">
-          <h3 class="two-columns__brief">Главные проблемы в обучении</h3>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph two-columns__paragraph_margin_bottom">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты.
@@ -37,6 +41,7 @@
           </div>
         </div>
       </section>
+      <!-- Блок оцифровки фактов - Digits -->
       <section class="digits">
         <h2 class="section-title section-title_margin_bottom">Цифры и факты</h2>
         <h3 class="section-subtitle">Про учёбу и мозг</h3>
@@ -97,11 +102,13 @@
           </div>
         </div>
       </section>
+      <!-- Блок со ссылкой на метод Фейнмана - Feynman -->
       <section class="feynman">
         <h2 class="feynman__title feynman__title_margin_bottom block-centered">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle block-centered">Выучить и не забыть.</h3>
         <a class="feynman__link" href="#">Подробнее →</a>
       </section>
+      <!-- Блок с принципами обучения Кауфмана - Kaufman -->
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark section-title_margin_bottom">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
@@ -167,9 +174,10 @@
             </p>
           </div>
         </div>
-        <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="Декоративный треугольник" title="Декоративный треугольник">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
+    <!-- Подвал страницы - Footer -->
     <footer class="footer">
       <div class="footer__columns block-centered">
         <div class="footer__column_content_copyright">
