@@ -50,9 +50,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-}
-
-.header__title_indexed {
   z-index: 3;
 }
 
@@ -179,6 +176,7 @@
   justify-content: space-between;
   width: 1100px;
   list-style-type: none;
+  z-index: 1;
 }
 
 .table_margin_auto {
@@ -194,15 +192,20 @@
 }
 
 .table__heading {
-  margin: 0;
+  margin: 0 0 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text {
+  margin: 0 0 20px;
   line-height: 1.2;
   font-size: 18px;
+}
+
+.table__text:last-of-type {
+  margin-bottom: 0;
 }
 
 /* Стили блока со ссылкой на метод Фейнмана - Feynman */
@@ -289,10 +292,6 @@
   color: white;
 }
 
-.table_indexed {
-  z-index: 1;
-}
-
 .table__cell_theme_dark {
   margin-top: 80px;
   margin-right: 0;
@@ -316,25 +315,19 @@
   width: 90%;
 }
 
-.footer__columns_position_relative {
-  position: relative;
-}
-
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__author {
+  margin: 0;
   padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
   color: #fff;
-}
-
-.footer__author_position_absolute {
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .footer__column-heading {
