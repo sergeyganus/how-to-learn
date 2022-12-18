@@ -1,0 +1,7 @@
+/* Стили блока оцифровки фактов - Digits */
+.digits {
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

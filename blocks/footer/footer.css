@@ -1,0 +1,9 @@
+/* Стили подвала страницы - Footer */
+.footer {
+  display: flex;
+  align-items: stretch;
+  box-sizing: border-box;
+  padding: 60px 0 40px;
+  min-height: 350px;
+  background-color: #1f1f1f;
+}

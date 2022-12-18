@@ -1,0 +1,7 @@
+/* Стили блока с полезными ресурсами - Resources */
+.resources {
+  padding: 100px 0 217px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

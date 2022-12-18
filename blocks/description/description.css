@@ -1,0 +1,6 @@
+/* Стили блока с описанием проблем в обучении - Description */
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 0;
+}

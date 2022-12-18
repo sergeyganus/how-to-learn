@@ -1,0 +1,10 @@
+/* Стили блока с техниками обучения - Techniques */
+.techniques {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 100px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}

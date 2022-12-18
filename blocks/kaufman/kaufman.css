@@ -1,0 +1,11 @@
+/* Стили блока с принципами обучения Кауфмана - Kaufman  */
+.kaufman {
+  box-sizing: border-box;
+  position: relative;
+  padding: 90px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
