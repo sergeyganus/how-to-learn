@@ -13,7 +13,7 @@
   animation: rotation 20s linear infinite;
 }
 
-/* Стили основного контейнера */
+/* Стили основного контейнера - Page */
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -21,7 +21,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* Стили шапки страницы */
+/* Стили шапки страницы - Header */
 .header {
   position: relative;
   display: flex;
