@@ -1,8 +1,8 @@
-# How To Learn
+# Научиться учиться
 
-**How To Learn** is my first full-fledged project in Yandex.Praktikum.
-It uses HTML5, CSS3 and the previously mysterious BEM.
-Not only the naming of classes according to BEM is used, but also the file structure is implemented by this methodology.
+**Научиться учиться** - это мой первый полноценный проект в Яндекс Практикуме.
+В нём используются HTML5, CSS3 и ранее загадочная методология БЭМ.
+Реализовано не просто именование классов по БЭМ, но и схема организации файловой структуры БЭМ-проектов Nested.
 
-The project uses Flexbox, Transformations, Animations, different types of Positioning, SVG.
-The main thing is a clean semantic code that is easy to support and develop.
+В данном проекте используются Flexbox, трансформации, анимации, разные типы позиционирования, SVG.
+Главное достоинство проекта - чистый семантический код, который легко поддерживать и развивать.

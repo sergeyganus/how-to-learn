@@ -4,5 +4,4 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: linear-gradient(to top, #f2f2f2 0 60px, #fff 60px 100%);
 }
